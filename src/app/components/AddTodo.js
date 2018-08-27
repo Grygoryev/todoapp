@@ -21,7 +21,6 @@ class AddTodo extends Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                {/* <label>Add a new todo</label> */}
                 <input type="text" onChange={this.handleChange} value={this.state.content} placeholder="Add new ToDo" />
             </form>
         )
