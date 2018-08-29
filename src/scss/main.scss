@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     font-family:  'Roboto', serif;
+
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -10,7 +13,22 @@ body {
     // min-height: 100vh;
 }
 
+.box {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 420px;
+}
 
+.header {
+    background-image: linear-gradient(0, rgb(228, 228, 109), rgb(91, 235, 91));
+    // min-height: 100px;
+
+    &__title{ 
+        line-height: 100px;
+    }
+}
 
 // font-family: 'Slabo 27px', serif;
 // font-family: 'Open Sans Condensed', sans-serif;
