@@ -1,48 +1,15 @@
 * {
     box-sizing: border-box;
-    font-family:  'Slabo 27px', serif;
+    font-family:  'Roboto', serif;
 }
 
 body {
     background-color: #e6e5e5;
     background-image: linear-gradient(0deg, #e6e5e5, #fffbfb);
     background-repeat: no-repeat;
-    min-height: 100vh;
+    // min-height: 100vh;
 }
 
-.todo-container {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.todos {
-    margin-bottom: 30px;
-}
-
-.todo-item {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
-    line-height: 45px;
-    cursor: pointer;
-    transition: all;
-    position: relative;
-
-    &:hover {
-        box-shadow: 0 0 1px rgba(black, 0.4);
-
-        .todo-icon {
-            opacity: 1;
-        }
-    }
-}
-
-.todo-icon {
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-}
 
 
 // font-family: 'Slabo 27px', serif;
